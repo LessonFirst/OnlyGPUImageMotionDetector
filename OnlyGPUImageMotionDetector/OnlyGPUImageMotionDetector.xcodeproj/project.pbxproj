@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD937916204FF089002B388A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937915204FF089002B388A /* AppDelegate.m */; };
+		CD937919204FF089002B388A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937918204FF089002B388A /* ViewController.m */; };
+		CD93791C204FF089002B388A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93791A204FF089002B388A /* Main.storyboard */; };
+		CD93791E204FF089002B388A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD93791D204FF089002B388A /* Assets.xcassets */; };
+		CD937921204FF089002B388A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93791F204FF089002B388A /* LaunchScreen.storyboard */; };
+		CD937924204FF089002B388A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937923204FF089002B388A /* main.m */; };
+		CD93792E204FF089002B388A /* OnlyGPUImageMotionDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD93792D204FF089002B388A /* OnlyGPUImageMotionDetectorTests.m */; };
+		CD937939204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937938204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD93792A204FF089002B388A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD937909204FF089002B388A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD937910204FF089002B388A;
+			remoteInfo = OnlyGPUImageMotionDetector;
+		};
+		CD937935204FF089002B388A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD937909204FF089002B388A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD937910204FF089002B388A;
+			remoteInfo = OnlyGPUImageMotionDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD937911204FF089002B388A /* OnlyGPUImageMotionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyGPUImageMotionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD937914204FF089002B388A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD937915204FF089002B388A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD937917204FF089002B388A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD937918204FF089002B388A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD93791B204FF089002B388A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD93791D204FF089002B388A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD937920204FF089002B388A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD937922204FF089002B388A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD937923204FF089002B388A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD937929204FF089002B388A /* OnlyGPUImageMotionDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyGPUImageMotionDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD93792D204FF089002B388A /* OnlyGPUImageMotionDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlyGPUImageMotionDetectorTests.m; sourceTree = "<group>"; };
+		CD93792F204FF089002B388A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD937934204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyGPUImageMotionDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD937938204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlyGPUImageMotionDetectorUITests.m; sourceTree = "<group>"; };
+		CD93793A204FF089002B388A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD93790E204FF089002B388A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937926204FF089002B388A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937931204FF089002B388A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD937908204FF089002B388A = {
+			isa = PBXGroup;
+			children = (
+				CD937913204FF089002B388A /* OnlyGPUImageMotionDetector */,
+				CD93792C204FF089002B388A /* OnlyGPUImageMotionDetectorTests */,
+				CD937937204FF089002B388A /* OnlyGPUImageMotionDetectorUITests */,
+				CD937912204FF089002B388A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD937912204FF089002B388A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD937911204FF089002B388A /* OnlyGPUImageMotionDetector.app */,
+				CD937929204FF089002B388A /* OnlyGPUImageMotionDetectorTests.xctest */,
+				CD937934204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD937913204FF089002B388A /* OnlyGPUImageMotionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				CD937914204FF089002B388A /* AppDelegate.h */,
+				CD937915204FF089002B388A /* AppDelegate.m */,
+				CD937917204FF089002B388A /* ViewController.h */,
+				CD937918204FF089002B388A /* ViewController.m */,
+				CD93791A204FF089002B388A /* Main.storyboard */,
+				CD93791D204FF089002B388A /* Assets.xcassets */,
+				CD93791F204FF089002B388A /* LaunchScreen.storyboard */,
+				CD937922204FF089002B388A /* Info.plist */,
+				CD937923204FF089002B388A /* main.m */,
+			);
+			path = OnlyGPUImageMotionDetector;
+			sourceTree = "<group>";
+		};
+		CD93792C204FF089002B388A /* OnlyGPUImageMotionDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD93792D204FF089002B388A /* OnlyGPUImageMotionDetectorTests.m */,
+				CD93792F204FF089002B388A /* Info.plist */,
+			);
+			path = OnlyGPUImageMotionDetectorTests;
+			sourceTree = "<group>";
+		};
+		CD937937204FF089002B388A /* OnlyGPUImageMotionDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD937938204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.m */,
+				CD93793A204FF089002B388A /* Info.plist */,
+			);
+			path = OnlyGPUImageMotionDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD937910204FF089002B388A /* OnlyGPUImageMotionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD93793D204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetector" */;
+			buildPhases = (
+				CD93790D204FF089002B388A /* Sources */,
+				CD93790E204FF089002B388A /* Frameworks */,
+				CD93790F204FF089002B388A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlyGPUImageMotionDetector;
+			productName = OnlyGPUImageMotionDetector;
+			productReference = CD937911204FF089002B388A /* OnlyGPUImageMotionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD937928204FF089002B388A /* OnlyGPUImageMotionDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD937940204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetectorTests" */;
+			buildPhases = (
+				CD937925204FF089002B388A /* Sources */,
+				CD937926204FF089002B388A /* Frameworks */,
+				CD937927204FF089002B388A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD93792B204FF089002B388A /* PBXTargetDependency */,
+			);
+			name = OnlyGPUImageMotionDetectorTests;
+			productName = OnlyGPUImageMotionDetectorTests;
+			productReference = CD937929204FF089002B388A /* OnlyGPUImageMotionDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD937933204FF089002B388A /* OnlyGPUImageMotionDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD937943204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetectorUITests" */;
+			buildPhases = (
+				CD937930204FF089002B388A /* Sources */,
+				CD937931204FF089002B388A /* Frameworks */,
+				CD937932204FF089002B388A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD937936204FF089002B388A /* PBXTargetDependency */,
+			);
+			name = OnlyGPUImageMotionDetectorUITests;
+			productName = OnlyGPUImageMotionDetectorUITests;
+			productReference = CD937934204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD937909204FF089002B388A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = only;
+				TargetAttributes = {
+					CD937910204FF089002B388A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD937928204FF089002B388A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD937910204FF089002B388A;
+					};
+					CD937933204FF089002B388A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD937910204FF089002B388A;
+					};
+				};
+			};
+			buildConfigurationList = CD93790C204FF089002B388A /* Build configuration list for PBXProject "OnlyGPUImageMotionDetector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD937908204FF089002B388A;
+			productRefGroup = CD937912204FF089002B388A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD937910204FF089002B388A /* OnlyGPUImageMotionDetector */,
+				CD937928204FF089002B388A /* OnlyGPUImageMotionDetectorTests */,
+				CD937933204FF089002B388A /* OnlyGPUImageMotionDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD93790F204FF089002B388A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD937921204FF089002B388A /* LaunchScreen.storyboard in Resources */,
+				CD93791E204FF089002B388A /* Assets.xcassets in Resources */,
+				CD93791C204FF089002B388A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937927204FF089002B388A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937932204FF089002B388A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD93790D204FF089002B388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD937919204FF089002B388A /* ViewController.m in Sources */,
+				CD937924204FF089002B388A /* main.m in Sources */,
+				CD937916204FF089002B388A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937925204FF089002B388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD93792E204FF089002B388A /* OnlyGPUImageMotionDetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD937930204FF089002B388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD937939204FF089002B388A /* OnlyGPUImageMotionDetectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD93792B204FF089002B388A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD937910204FF089002B388A /* OnlyGPUImageMotionDetector */;
+			targetProxy = CD93792A204FF089002B388A /* PBXContainerItemProxy */;
+		};
+		CD937936204FF089002B388A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD937910204FF089002B388A /* OnlyGPUImageMotionDetector */;
+			targetProxy = CD937935204FF089002B388A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD93791A204FF089002B388A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD93791B204FF089002B388A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD93791F204FF089002B388A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD937920204FF089002B388A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD93793B204FF089002B388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD93793C204FF089002B388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD93793E204FF089002B388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD93793F204FF089002B388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD937941204FF089002B388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlyGPUImageMotionDetector.app/OnlyGPUImageMotionDetector";
+			};
+			name = Debug;
+		};
+		CD937942204FF089002B388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlyGPUImageMotionDetector.app/OnlyGPUImageMotionDetector";
+			};
+			name = Release;
+		};
+		CD937944204FF089002B388A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlyGPUImageMotionDetector;
+			};
+			name = Debug;
+		};
+		CD937945204FF089002B388A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				INFOPLIST_FILE = OnlyGPUImageMotionDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = comIPCCamere.Le.OnlyGPUImageMotionDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlyGPUImageMotionDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD93790C204FF089002B388A /* Build configuration list for PBXProject "OnlyGPUImageMotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD93793B204FF089002B388A /* Debug */,
+				CD93793C204FF089002B388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD93793D204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD93793E204FF089002B388A /* Debug */,
+				CD93793F204FF089002B388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD937940204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD937941204FF089002B388A /* Debug */,
+				CD937942204FF089002B388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD937943204FF089002B388A /* Build configuration list for PBXNativeTarget "OnlyGPUImageMotionDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD937944204FF089002B388A /* Debug */,
+				CD937945204FF089002B388A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD937909204FF089002B388A /* Project object */;
+}
