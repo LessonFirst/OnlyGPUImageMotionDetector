@@ -1,0 +1,2 @@
+# OnlyGPUImageMotionDetector
+一个运动检测的demo
