@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18243D9A20556E2400931E33 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18243D9920556E2400931E33 /* cap.jpg */; };
 		CD937916204FF089002B388A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937915204FF089002B388A /* AppDelegate.m */; };
 		CD937919204FF089002B388A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD937918204FF089002B388A /* ViewController.m */; };
 		CD93791C204FF089002B388A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93791A204FF089002B388A /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18243D9920556E2400931E33 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
 		CD937911204FF089002B388A /* OnlyGPUImageMotionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyGPUImageMotionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD937914204FF089002B388A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD937915204FF089002B388A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				CD937915204FF089002B388A /* AppDelegate.m */,
 				CD937917204FF089002B388A /* ViewController.h */,
 				CD937918204FF089002B388A /* ViewController.m */,
+				18243D9920556E2400931E33 /* cap.jpg */,
 				CD93791A204FF089002B388A /* Main.storyboard */,
 				CD93791D204FF089002B388A /* Assets.xcassets */,
 				CD93791F204FF089002B388A /* LaunchScreen.storyboard */,
@@ -624,6 +627,7 @@
 			files = (
 				CD937921204FF089002B388A /* LaunchScreen.storyboard in Resources */,
 				CD93791E204FF089002B388A /* Assets.xcassets in Resources */,
+				18243D9A20556E2400931E33 /* cap.jpg in Resources */,
 				CD93791C204FF089002B388A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -815,7 +819,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = OnlyGPUImageMotionDetector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -834,7 +838,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8NLAUJVW9U;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = OnlyGPUImageMotionDetector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
